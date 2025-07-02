@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor0: snow;
+    --cor1: #cde6fe;
+    --cor2: #3763bd;
+    --cor3: #081760;
+    --cor4: #e4e4e4;
+    --cor5: #8bbce2;
+    --cor6: #ebbd92;
+    --cor7: #a28366;
+
+    --font-titulo: 'Kanit';
+    --font-secundaria: 'Roboto Mono';
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font: normal 400 18px system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    color: var(--cor2);
+    font-family: var(--font-titulo);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+header nav {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+header a {
+    color: var(--cor4);
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.636);
+    border-radius: 5px;
+}
+
+header a:hover {
+    background-color: var(--cor1);
+    color: var(--cor3);
+    transition: background-color 0.5s, color 0.5s;
+}
+
+p {
+    color: var(--cor3);
+    text-align: center;
+    padding: 30px;
+}
+
+#img1 {
+    background-image: url(/imagens/paineis/banner-inicial.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 503px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+div#img1 p#openimg {
+    color: var(--cor1);
+    font-family: var(--font-secundaria);
+    font-size: 4vw;
+    font-weight: 800;
+    text-align: left;
+
+    position: absolute;
+    top: 150px;
+    left: 10px;
+
+}
+
+main h2 {
+    color: black;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+main section {
+    width: 85vw;
+    margin: auto;
+    text-align: center;
+}
+
+#img2 {
+    background-image: url(/imagens/paineis/banner-bebidas.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 48%;
+    height: 450px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+#img2:hover {
+    border: 2px solid var(--cor5);
+    box-shadow: 0px 0px 5px 3px rgb(209, 209, 209);
+}
+
+p#bebidas {
+    color: var(--cor5);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    width: 48%;
+    padding: 0px;
+    display: inline-block;
+}
+
+#img3 {
+    background-image: url(/imagens/paineis/banner-comidas-frias.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 48%;
+    height: 450px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+#img3:hover {
+    border: 2px solid var(--cor6);
+    box-shadow: 0px 0px 5px 3px rgb(209, 209, 209);
+}
+
+p#comidas {
+    color: var(--cor6);
+    font-size: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    width: 48%;
+    padding: 0px;
+    display: inline-block;
+}
+
+#img4 {
+    background-image: url(/imagens/paineis/banner-paisagens.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 350px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.516);
+}
+
+#img4:hover {
+    border: 2px solid var(--cor3);
+}
+
+p#paisagens {
+    font-family: var(--cor3);
+    font-size: 22px;
+    font-weight: 700;
+    width: 200px;
+    margin: auto;
+}
+
+footer {
+    background-color: var(--cor3);
+    color: var(--cor0);
+    text-align: center;
+    font-weight: 600;
+    margin-top: 150px;
+    padding-bottom: 20px;
+}
+
+footer h1 {
+    color: var(--cor2);
+    font-family: var(--font-titulo);
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer p {
+    color: var(--cor0);
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+footer .ti {
+    color: var(--cor0);
+    padding: 1px;
+    text-decoration: none;
+}
+
+footer .ti:hover {
+    background-color: var(--cor0);
+    color: var(--cor2);
+    border-radius: 4px;
+}
+
+footer ul {
+    margin-bottom: 60px;
+}
+
+footer ol.lista {
+    font: normal 300 13px Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    width: 250px;
+}
+
+footer h3 {
+    margin-bottom: 20px;
+}
+
+footer div#divlista {
+    text-align: center;
+    width: 240px;
+    display: inline-block;
+}
+
+footer p.pol {
+    font: normal 300 14px system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
