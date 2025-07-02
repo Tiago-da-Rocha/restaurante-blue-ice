@@ -16,7 +16,7 @@
 }
 
 div#painelpai {
-    background-image: url(/imagens/paineis/banner-sessao-paisagens.jpg);
+    background-image: url(../imagens/paineis/banner-sessao-paisagens.jpg);
     background-position: left center;
     background-size: cover;
     background-attachment: fixed;

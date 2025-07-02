@@ -15,7 +15,7 @@
 }
 
 div#painelbeb {
-    background-image: url(/imagens/paineis/banner-sessao-bebidas.jpg);
+    background-image: url(../imagens/paineis/banner-sessao-bebidas.jpg);
     background-position: left center;
     background-size: cover;
     background-attachment: fixed;
@@ -115,7 +115,7 @@ section div.refrescos {
 /* SESSÃO REFRESCOS */
 
 #bannerrefrescos {
-    background-image: url("/imagens/paineis/banner-refrescos.jpg");
+    background-image: url("../imagens/paineis/banner-refrescos.jpg");
 }
 
 section div.refrescos p {
@@ -126,7 +126,7 @@ section div.refrescos p {
 /* SESSÃO DRINKS */
 
 #bannerdrinks {
-    background-image: url(/imagens/paineis/banner-drinks.jpg);
+    background-image: url(../imagens/paineis/banner-drinks.jpg);
 }
 
 section div.refrescos-drinks p {

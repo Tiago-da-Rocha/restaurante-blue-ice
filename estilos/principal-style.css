@@ -66,7 +66,7 @@ p {
 }
 
 #img1 {
-    background-image: url(/imagens/paineis/banner-inicial.jpg);
+    background-image: url(../imagens/paineis/banner-inicial.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -103,7 +103,7 @@ main section {
 }
 
 #img2 {
-    background-image: url(/imagens/paineis/banner-bebidas.jpg);
+    background-image: url(../imagens/paineis/banner-bebidas.jpg);
     background-position: center;
     background-size: cover;
     width: 48%;
@@ -128,7 +128,7 @@ p#bebidas {
 }
 
 #img3 {
-    background-image: url(/imagens/paineis/banner-comidas-frias.jpg);
+    background-image: url(../imagens/paineis/banner-comidas-frias.jpg);
     background-position: center;
     background-size: cover;
     width: 48%;
@@ -154,7 +154,7 @@ p#comidas {
 }
 
 #img4 {
-    background-image: url(/imagens/paineis/banner-paisagens.jpg);
+    background-image: url(../imagens/paineis/banner-paisagens.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
